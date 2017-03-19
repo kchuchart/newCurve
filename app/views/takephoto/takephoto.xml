@@ -1,0 +1,8 @@
+<Page loaded="pageLoad">
+<ActionBar title="Take Photo" class="action-bar"></ActionBar> 
+  <StackLayout>
+    <Button text="ถ่ายรูป" tap="takePhoto"/>
+    <Button text="กลับเมนูหลัก" tap ="backMenu" tap="backMenu"/>
+    <Image id="photo"/>
+  </StackLayout>
+</Page>

@@ -1,0 +1,16 @@
+<Page loaded = "pageLoaded"> 
+<ActionBar title="My Application" class="action-bar"></ActionBar> 
+<StackLayout orientation="vertical">
+
+<Label text="Welcome to...Rajasitharam Technical College" />
+
+<Image src="~/images/apple.jpg"/>
+<StackLayout orientation="horizontal">
+<Button text="ห้องของฉัน" tap ="show" tap="myRoom"/>
+<Button text="ถ่ายรูป" tap ="photo" tap="takePhoto"/>
+<Button text="ลงทะเบียน" tap ="photo" tap="register"/>
+</StackLayout>
+
+<Button text="ออกจากโปรแกรม" tap ="logOut" tap="logOut"/>
+</StackLayout>
+</Page>
